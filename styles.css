@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Nunito:wght@800&family=Outfit:wght@400;700&display=swap');
+body {
+    display: flex;
+    min-width: 350px;
+    max-width: 1440px;
+    min-height: 500px;
+    max-height: 768px;
+    background-color: hsl(212, 45%, 89%);
+    flex-direction: column;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    align-items: start;
+}
+.attribution a{
+    color: hsl(228, 45%, 44%); 
+}
+.chart {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    transform: translateY(50%);
+    border-radius: 15px;
+    width: 270px;
+    height: 430px;
+}
+img{
+    margin-top: 15px;
+    border-radius: 10px;
+}
+h3{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(218, 44%, 22%);
+    margin-inline: 19px;
+    text-align: center;
+}
+p {
+    margin-inline: 20px;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    color: hsl(220, 15%, 55%)
+}
