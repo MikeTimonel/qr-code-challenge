@@ -22,7 +22,7 @@ body {
     flex-direction: column;
     margin: auto;
     align-items: center;
-    transform: translateY(50%);
+    transform: translateY(12%);
     border-radius: 15px;
     width: 270px;
     height: 430px;
